@@ -1,5 +1,9 @@
 plugins {
     id("com.android.application")
+<<<<<<< HEAD
+=======
+    id("org.jetbrains.kotlin.android")
+>>>>>>> f9cc789 (Initial commit)
 }
 
 android {
