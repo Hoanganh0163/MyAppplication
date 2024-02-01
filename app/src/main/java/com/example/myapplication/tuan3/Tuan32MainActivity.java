@@ -2,6 +2,7 @@ package com.example.myapplication.tuan3;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.annotation.SuppressLint;
 import android.os.Bundle;
 import android.widget.ListView;
 
@@ -12,6 +13,7 @@ public class Tuan32MainActivity extends AppCompatActivity {
     ListView lv;
     T32Adapter adapter;
     ArrayList<T32Contact> ls = new ArrayList<>();
+    @SuppressLint("MissingInflatedId")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
